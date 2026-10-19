@@ -3,129 +3,106 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#35143b" />
-  <meta name="description" content="A note of gratitude for Sativa—from Saira." />
-  <meta property="og:title" content="For Sativa, with gratitude" />
-  <meta property="og:description" content="A small note for an extraordinary researcher and supervisor." />
+  <meta name="theme-color" content="#9dd7ee" />
+  <meta name="description" content="A small interactive thank-you for Sativa—from Saira." />
+  <meta property="og:title" content="A SPARK note for Sativa" />
+  <meta property="og:description" content="Field notes on an extraordinary researcher and supervisor." />
   <meta property="og:type" content="website" />
-  <title>For Sativa, with gratitude</title>
+  <title>A SPARK note for Sativa</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <a class="skip-link" href="#letter">Skip to the letter</a>
+  <a class="skip-link" href="#findings">Skip to the message</a>
 
-  <div class="ambient" aria-hidden="true">
-    <span class="orb orb-one"></span>
-    <span class="orb orb-two"></span>
-    <span class="spark spark-one">✦</span>
-    <span class="spark spark-two">✦</span>
-    <span class="spark spark-three">✦</span>
+  <div class="sky" aria-hidden="true">
+    <div class="cloud cloud-a"><span></span></div>
+    <div class="cloud cloud-b"><span></span></div>
+    <div class="cloud cloud-c"><span></span></div>
+    <div class="cloud cloud-d"><span></span></div>
+    <div class="sun-pixel"></div>
+    <div class="sky-pixels"><i></i><i></i><i></i><i></i><i></i></div>
   </div>
 
   <main>
-    <section class="stage" id="welcome" aria-labelledby="welcome-title">
-      <p class="eyebrow">A small note from Saira</p>
-      <h1 id="welcome-title">For Sativa,<br /><em>with gratitude.</em></h1>
-      <p class="intro">Some people teach through instruction. Others teach simply through the way they move through the work.</p>
-
-      <button class="open-button" id="open-note" type="button" aria-controls="letter" aria-expanded="false">
-        <span>Open your note</span>
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M5 12h14m-5-5 5 5-5 5" />
-        </svg>
-      </button>
-
-      <div class="envelope-scene" aria-hidden="true">
-        <div class="envelope">
-          <div class="envelope-back"></div>
-          <div class="paper-preview">
-            <span>Dear Sativa,</span>
-            <i></i><i></i><i></i>
-          </div>
-          <div class="envelope-front"></div>
-          <div class="envelope-flap"></div>
-          <div class="seal">S</div>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="pixel-window hero-window">
+        <div class="window-bar">
+          <div class="window-title"><span class="tiny-spark">✦</span> SPARK FIELD NOTES</div>
+          <div class="window-controls" aria-hidden="true"><i></i><i></i><i></i></div>
         </div>
+        <div class="hero-content">
+          <div class="project-label">PUBLIC HEALTH • RESEARCH • PEOPLE</div>
+          <h1 id="hero-title">For Sativa,<br><span>with gratitude.</span></h1>
+          <p class="hero-copy">A small record of what I learned from the project—and from the person who made care feel inseparable from good research.</p>
+          <div class="mini-dashboard" aria-hidden="true">
+            <div class="mini-card people-card"><span class="pixel-icon people-icon">● ● ●</span><b>people</b><small>at the center</small></div>
+            <div class="mini-card chart-card"><span class="bar-chart"><i></i><i></i><i></i><i></i></span><b>evidence</b><small>with purpose</small></div>
+            <div class="mini-card care-card"><span class="pixel-heart">♥</span><b>care</b><small>in every detail</small></div>
+          </div>
+          <button class="pixel-button" id="begin" type="button" aria-controls="findings" aria-expanded="false"><span>Open the field notes</span><b aria-hidden="true">→</b></button>
+        </div>
+      </div>
+      <div class="ground-line" aria-hidden="true">
+        <span class="building b1"></span><span class="building b2"></span><span class="building b3"></span>
+        <span class="tree t1"></span><span class="tree t2"></span><span class="tree t3"></span>
       </div>
     </section>
 
-    <section class="letter-section" id="letter" aria-labelledby="letter-title" aria-hidden="true">
-      <article class="letter-card">
-        <header class="letter-header">
-          <span class="letter-mark" aria-hidden="true">S</span>
-          <div>
-            <p class="eyebrow">What I wanted you to know</p>
-            <h2 id="letter-title">Dear Sativa,</h2>
-          </div>
-        </header>
-
-        <div class="letter-copy">
-          <p>When I think about my time with SPARK, I keep returning to how much I learned simply by watching you work. You were our direct line of contact, but that phrase does not begin to capture what you were to the project—or to me. You were thoughtful, steady, responsive, and extraordinarily careful, both with the work and with the people doing it.</p>
-
-          <p>I admire you not only as a supervisor, but as a researcher. The care you bring to every detail never feels mechanical; it reflects how seriously you take the purpose of the work and the people it is meant to serve. You showed me that rigor can be generous, that clarity and kindness can coexist, and that good leadership is often visible in the space it creates for other people to do their best work.</p>
-
-          <p>I learned so much through the SPARK project itself, but I learned just as much from the way you approached it. Your example has shaped how I want to conduct research, collaborate with others, and someday support the people whose work I may be fortunate enough to supervise.</p>
-        </div>
-
-        <div class="lesson-prompt">
-          <p>Three things your example taught me</p>
-          <span>Choose each one to reveal it</span>
-        </div>
-
-        <div class="lesson-grid" aria-label="Lessons from Sativa">
-          <button class="lesson" type="button" aria-expanded="false">
-            <span class="lesson-front">
-              <b>Care</b>
-              <small>Tap to reveal</small>
-            </span>
-            <span class="lesson-back">Care is not separate from rigor. It is part of what makes research worth doing well.</span>
-          </button>
-
-          <button class="lesson" type="button" aria-expanded="false">
-            <span class="lesson-front">
-              <b>Thoughtfulness</b>
-              <small>Tap to reveal</small>
-            </span>
-            <span class="lesson-back">The details we pause to notice often determine whether our work truly honors its purpose.</span>
-          </button>
-
-          <button class="lesson" type="button" aria-expanded="false">
-            <span class="lesson-front">
-              <b>Generosity</b>
-              <small>Tap to reveal</small>
-            </span>
-            <span class="lesson-back">The best leadership gives people enough trust and support to discover what they can do.</span>
-          </button>
-        </div>
-
-        <div class="letter-copy closing-copy">
-          <p>Thank you for your guidance, your patience, your trust, and the many lessons you taught without ever needing to announce them. Working with you has been a genuine privilege, and I will carry what I learned from you into every stage of the researcher—and supervisor—I hope to become.</p>
-        </div>
-
-        <div class="signature">
-          <span>With immense gratitude,</span>
-          <strong>Saira</strong>
-        </div>
-
-        <button class="final-button" id="final-message" type="button" aria-controls="surprise" aria-expanded="false">
-          One last thing <span aria-hidden="true">✦</span>
+    <section class="findings" id="findings" aria-labelledby="findings-title" aria-hidden="true">
+      <div class="section-heading">
+        <span class="section-number">01</span>
+        <div><p class="kicker">OBSERVATIONS FROM SPARK</p><h2 id="findings-title">Three things your example taught me</h2></div>
+      </div>
+      <p class="instruction">Select each finding to open it.</p>
+      <div class="finding-grid">
+        <button class="finding-card care" type="button" aria-expanded="false">
+          <span class="card-tab">FINDING 01</span><span class="card-icon" aria-hidden="true">♥</span><strong>Care</strong><span class="tap-label">click to examine +</span>
+          <span class="finding-detail">Care is not separate from rigor. It is part of what makes research worth doing well.</span>
         </button>
-      </article>
+        <button class="finding-card rigor" type="button" aria-expanded="false">
+          <span class="card-tab">FINDING 02</span><span class="card-icon ruler-icon" aria-hidden="true">▥</span><strong>Rigor</strong><span class="tap-label">click to examine +</span>
+          <span class="finding-detail">The details we pause to notice often determine whether our work truly honors its purpose.</span>
+        </button>
+        <button class="finding-card generosity" type="button" aria-expanded="false">
+          <span class="card-tab">FINDING 03</span><span class="card-icon" aria-hidden="true">✦</span><strong>Generosity</strong><span class="tap-label">click to examine +</span>
+          <span class="finding-detail">The best leadership gives people enough trust and support to discover what they can do.</span>
+        </button>
+      </div>
+      <p class="unlock-note" id="unlock-note">Open all three findings to continue</p>
     </section>
 
-    <section class="surprise" id="surprise" aria-live="polite" aria-hidden="true">
-      <div class="surprise-inner">
-        <p>You did not simply help lead SPARK.</p>
-        <h2>You made its name<br /><em>feel true.</em></h2>
-        <span class="closing-spark" aria-hidden="true">✦</span>
-        <p class="postscript">Thank you for making the work—and the people doing it—brighter.</p>
+    <section class="letter-zone" id="letter" aria-labelledby="letter-title" aria-hidden="true">
+      <div class="pixel-window letter-window">
+        <div class="window-bar dark-bar"><div class="window-title"><span class="status-dot"></span> FINAL REPORT: GRATITUDE</div><div class="window-controls" aria-hidden="true"><i></i><i></i><i></i></div></div>
+        <article class="letter-paper">
+          <div class="report-meta"><span>TO: SATIVA</span><span>FROM: SAIRA</span><span>STATUS: DEEPLY GRATEFUL</span></div>
+          <div class="letter-heading">
+            <span class="pixel-spark-large" aria-hidden="true">✦</span>
+            <div><p class="kicker">WHAT I WANTED YOU TO KNOW</p><h2 id="letter-title">Dear Sativa,</h2></div>
+          </div>
+          <div class="letter-copy">
+            <p>When I think about my time with SPARK, I keep returning to how much I learned simply by watching you work. You were our direct line of contact, but that phrase does not begin to capture what you were to the project—or to me. You were thoughtful, steady, responsive, and extraordinarily careful, both with the work and with the people doing it.</p>
+            <p>I admire you not only as a supervisor, but as a researcher. The care you bring to every detail never feels mechanical; it reflects how seriously you take the purpose of the work and the people it is meant to serve. You showed me that rigor can be generous, that clarity and kindness can coexist, and that good leadership is often visible in the space it creates for other people to do their best work.</p>
+            <p>I learned so much through the SPARK project itself, but I learned just as much from the way you approached it. Your example has shaped how I want to conduct research, collaborate with others, and someday support the people whose work I may be fortunate enough to supervise.</p>
+            <p>Thank you for your guidance, your patience, your trust, and the many lessons you taught without ever needing to announce them. Working with you has been a genuine privilege, and I will carry what I learned from you into every stage of the researcher—and supervisor—I hope to become.</p>
+          </div>
+          <div class="signature"><span>With immense gratitude,</span><strong>Saira</strong></div>
+          <button class="pixel-button final-button" id="conclusion-button" type="button" aria-controls="conclusion" aria-expanded="false"><span>View the conclusion</span><b aria-hidden="true">✦</b></button>
+        </article>
+      </div>
+    </section>
+
+    <section class="conclusion" id="conclusion" aria-live="polite" aria-hidden="true">
+      <div class="conclusion-cloud cloud"><span></span></div>
+      <div class="conclusion-content">
+        <p class="kicker">CONCLUSION</p><h2>You did not simply<br>help lead SPARK.</h2>
+        <div class="spark-burst" aria-hidden="true"><span>✦</span></div>
+        <h3>You made its name feel true.</h3><p>Thank you for making the work—and the people doing it—brighter.</p>
       </div>
     </section>
   </main>
-
-  <footer>Made with gratitude for an extraordinary supervisor</footer>
-  <div class="confetti-layer" id="confetti" aria-hidden="true"></div>
-
+  <footer>MADE WITH GRATITUDE • FOR AN EXTRAORDINARY SUPERVISOR • <span>2026</span></footer>
+  <div class="pixel-confetti" id="confetti" aria-hidden="true"></div>
   <script src="script.js"></script>
 </body>
 </html>
